@@ -1,0 +1,38 @@
+{
+  "author": {
+    "email": "tmoreton89@gmail.com",
+    "name": "Strands Agents",
+    "url": "https://github.com/strands-agents"
+  },
+  "description": "Strands Agents SDK guidance for building AI agents in Python and TypeScript: agent loop, tools and MCP, multi-agent orchestration, sessions and memory, model portability, streaming, and structured output. Includes a skill for when and how to use Strands and how to add it to an existing FastAPI, Express, or Next.js app.",
+  "homepage": "https://github.com/tmoreton/claude-code-plugin-strands",
+  "interface": {
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "category": "Development",
+    "developerName": "Strands Agents",
+    "displayName": "Strands Agents",
+    "longDescription": "Strands Agents is an open-source SDK (started at AWS, now community-governed under the strands-agents GitHub org) for building AI agents in Python and TypeScript. This plugin provides a skill that guides when to choose Strands — agent loop with lifecycle hooks, tools and MCP, multi-agent orchestration (graph/swarm), sessions and memory, model portability (Bedrock, Anthropic, OpenAI, Ollama, and more), streaming, structured output, observability — and how to install and wire it into an existing FastAPI, Express, or Next.js app, with copy-pasteable integration recipes in the skill references.",
+    "privacyPolicyURL": "https://github.com/tmoreton/claude-code-plugin-strands",
+    "shortDescription": "Build AI agents with the Strands Agents SDK",
+    "supportURL": "https://github.com/tmoreton/claude-code-plugin-strands/issues",
+    "websiteURL": "https://strandsagents.com"
+  },
+  "keywords": [
+    "agents",
+    "agent-sdk",
+    "mcp",
+    "aws",
+    "bedrock",
+    "multi-agent",
+    "python",
+    "typescript"
+  ],
+  "license": "Apache-2.0",
+  "name": "strands-agents",
+  "repository": "https://github.com/tmoreton/claude-code-plugin-strands",
+  "skills": "./skills/",
+  "version": "1.1.0"
+}
